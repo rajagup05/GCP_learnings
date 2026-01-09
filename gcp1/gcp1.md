@@ -32,3 +32,5 @@ Learn how to deploy a production-ready, highly available web application in GCP 
     apt install -y nginx
     echo "Welcome to MIG Demo - $(hostname)" > /var/www/html/index.html
 ---
+
+### step 2 : 
