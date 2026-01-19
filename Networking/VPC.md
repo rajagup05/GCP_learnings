@@ -47,3 +47,4 @@ Load Balancer: Distributes incoming network traffic across multiple servers, oft
 NAT (Network Address Translation): Allows instances in private subnets to initiate outbound connections to the internet while hiding their private IP addresses, enhancing security.
 
 VPN (Virtual Private Network) / Cloud Interconnect: Securely connect on-premises corporate networks to the VPC, allowing private and direct access to cloud resources
+
