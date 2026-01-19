@@ -7,27 +7,27 @@ There are a lot of benefits of public cloud (**reduced maintenance and cost**)  
 
 ### **Referring to the analogy of a gated community to simplify the understanding of a Virtual Private Cloud (VPC). In this analogy:**
 
-1. Imagine the entire secure society itself represents the VPC. VPC is the entire gated community . Its size is defined by CIDR blocks, which represent the range of IP addresses .
+1. Imagine the entire secure society itself represents the VPC. VPC is the entire **gated community** . Its size is defined by CIDR blocks, which represent the range of IP addresses.
 
-2. The blocks within the community are like subnets, dividing the larger area into manageable sections. Subnets are like blocks within the community, also defined by CIDR.
+2. The **blocks** within the community are like subnets, dividing the larger area into manageable sections. Subnets are like blocks within the community, also defined by CIDR.
 
-3. Public Subnets are accessible from the internet via an Internet Gateway, similar to the main gate of the society. This is where publicly accessible applications like load balancers are placed.
+3. Public Subnets are accessible from the internet via an Internet Gateway, similar to the **main gate** of the society. This is where publicly accessible applications like load balancers are placed.
 
 4. Private Subnets are not directly accessible from the internet and are used for sensitive applications like databases.
 
-5. The main gate of the society is the internet gateway, the controlled entry and exit point. 
+5. **The main gate** of the society is the internet gateway, the controlled entry and exit point. 
 
-6. The paved roads and directions throughout the community are the routes and route tables, guiding movement within and out of the blocks. Routes and Route Tables are like internal roads and directions within the community, connecting different subnets and allowing traffic flow.
+6. **The paved roads and directions throughout the community** are the routes and route tables, guiding movement within and out of the blocks. Routes and Route Tables are like internal roads and directions within the community, connecting different subnets and allowing traffic flow.
 
-7. Security guards positioned at each villa are compared to firewalls, controlling who can enter specific properties. Firewalls are like security guards at each villa, controlling access to individual virtual machines (VM instances).
+7. **Security guards positioned at each villa** are compared to firewalls, controlling who can enter specific properties. Firewalls are like security guards at each villa, controlling access to individual virtual machines (VM instances).
 
-8. A recreational area or common block that guests can access from the main gate is like a public subnet, while private residential blocks not directly accessible from outside are private subnets.
+8. **A recreational area or common block** that guests can access from the main gate is like a public subnet, while private residential blocks not directly accessible from outside are private subnets.
 
-9. A Google Map that helps locate the community and specific villas is the DNS, resolving addresses. DNS (Domain Name System) is compared to Google Maps, resolving domain names (like google.com) to IP addresses.
+9. **A Google Map** that helps locate the community and specific villas is the DNS, resolving addresses. DNS (Domain Name System) is compared to Google Maps, resolving domain names (like google.com) to IP addresses.
 
-10. A shared community gate for outgoing trips that hides the specific villa's location is the NAT, masking internal addresses for external communication. NAT (Network Address Translation): This acts as a shared community gate for outgoing trips, allowing applications in private subnets to securely access the internet without exposing their private IP addresses.
+10. **A shared community gate** for outgoing trips that hides the specific villa's location is the NAT, masking internal addresses for external communication. NAT (Network Address Translation): This acts as a shared community gate for outgoing trips, allowing applications in private subnets to securely access the internet without exposing their private IP addresses.
 
-11. Private tunnels to other communities represent VPN/Interconnect, enabling secure connections between different networks. VPN (Virtual Private Network): Similar to private tunnels to other communities, VPN allows secure connections between a corporate network and the VPC.
+11. **Private tunnels to other communities** represent VPN, enabling secure connections between different networks. VPN (Virtual Private Network): Similar to private tunnels to other communities, VPN allows secure connections between a corporate network and the VPC.
 
 ---
 
