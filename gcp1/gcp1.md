@@ -3,13 +3,13 @@
 ## AIM
 Learn how to deploy a production-ready, highly available web application in GCP using **Managed Instance Groups (MIGs)**, **HTTP(S) Load Balancer**, and **health checks**.
 
-## 📚 things Covered
+## things Covered
 
 | **Managed Instance Group**     |
 | **Instance Template**          |
 | **HTTP(S) Load Balancer**      | 
 | **Health Check**               | 
-| **LB Backend**              |
+| **LB Backend Service**                 |
 
 ---
 
