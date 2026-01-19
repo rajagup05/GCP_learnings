@@ -35,21 +35,21 @@ There are a lot of benefits of public cloud (**reduced maintenance and cost**)  
 
 **Key components and their functions include:**
 
-VPC Network: A logically isolated segment of the Google Cloud network, defined by a CIDR block that determines its IP address range and size.
+1. **VPC Network:** A logically isolated segment of the Google Cloud network, defined by a CIDR block that determines its IP address range and size.
 
-Subnets: Divisions within a VPC, each with its own CIDR range, allowing for organization and segmentation of resources. Subnets can be public (connected to an internet gateway) or private (not directly exposed to the internet) 
+2. **Subnets:** Divisions within a VPC, each with its own CIDR range, allowing for organization and segmentation of resources. Subnets can be public (connected to an internet gateway) or private (not directly exposed to the internet) 
 
-Internet Gateway: Enables communication between instances within the VPC and the internet.
+3. **Internet Gateway:** Enables communication between instances within the VPC and the internet.
 
-Routes & Route Tables: Define the paths that network traffic takes within the VPC and to external destinations, directing requests between subnets and outside the VPC.
+4. **Routes & Route Tables:** Define the paths that network traffic takes within the VPC and to external destinations, directing requests between subnets and outside the VPC.
 
-Firewall Rules: Control incoming and outgoing traffic to instances within the VPC, providing security by allowing or denying connections based on specified criteria.
+5. **Firewall Rules:** Control incoming and outgoing traffic to instances within the VPC, providing security by allowing or denying connections based on specified criteria.
 
-DNS (Domain Name System): Translates domain names (like xyz.com) into IP addresses, facilitating access to applications and resources within the VPC
+6. **DNS (Domain Name System):** Translates domain names (like xyz.com) into IP addresses, facilitating access to applications and resources within the VPC
 
-Load Balancer: Distributes incoming network traffic across multiple servers, often placed in public subnets to handle external user requests.
+7. **Load Balancer:** Distributes incoming network traffic across multiple servers, often placed in public subnets to handle external user requests.
 
-NAT (Network Address Translation): Allows instances in private subnets to initiate outbound connections to the internet while hiding their private IP addresses, enhancing security.
+8. **NAT (Network Address Translation):** Allows instances in private subnets to initiate outbound connections to the internet while hiding their private IP addresses, enhancing security.
 
-VPN (Virtual Private Network) / Cloud Interconnect: Securely connect on-premises corporate networks to the VPC, allowing private and direct access to cloud resources
+9. **VPN (Virtual Private Network) : Securely connect on-premises corporate networks to the VPC, allowing private and direct access to cloud resources
 
