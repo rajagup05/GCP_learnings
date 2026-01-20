@@ -77,22 +77,34 @@ Learn how to deploy a production-ready, highly available web application in GCP 
 4. Click **Create**
 
 ---
-<!--
-### Step 5: Create a Classic Application Load Balancer 
+
+### Step 5: Create (Configure) a Classic Application Load Balancer 
 
 1. Go to **Network services → Load balancing**
 2. Click **Create load balancer → Start configuration**
-3. Choose:
-   - HTTP(S) Load Balancer (From Internet to my VMs)
-4. Set:
-   - Name: `web-lb`
-   - Backend configuration (Create Backend Service and Attach MIG):
-     - Create backend service
-     - Add the MIG (`web-mig`)
-     - Attach the **health check** (`web-health-check`)
-5. Click **Next**
--->
+3. Under **Type of load balancer** → select **Application Load Balancer (HTTP/HTTPS)**
+4. Click **Next**
+5. Under **Public facing or internal** → Select **Public facing (external)**
+6. Click **Next**
+7. Under **Global or single region deployment** → Select **Global workloads**
+6. Click **Next**
+7. Under **Load balancer generation** → Select **Classic Application Load Balancer**
+6. Click **Configure**
 
-### Step 5: Create a Classic Application Load Balancer
+### Step 6: Create a Classic Application Load Balancer
+
+1. Set:
+   - Load Balancer Name: `web-lb`
+   - Frontend configuration:
+     - 
+   - Backend configuration:
+     - Create backend service **(refer to step 8)**
+     - Add the MIG (`web-mig`)
+     - Attach the **health check** (`web-health-check`) => **refer to Step 4**
+3. Click **Next**
+
+
+
+### Step 8: Create a Backend Service
 
 1. 
