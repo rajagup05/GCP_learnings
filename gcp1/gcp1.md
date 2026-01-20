@@ -91,6 +91,9 @@ Learn how to deploy a production-ready, highly available web application in GCP 
 7. Under **Load balancer generation** → Select **Classic Application Load Balancer**
 6. Click **Configure**
 
+>[!NOTE]
+> continue with **step 6** to create LB
+
 ### Step 6: Create a Classic Application Load Balancer
 
 1. Set:
