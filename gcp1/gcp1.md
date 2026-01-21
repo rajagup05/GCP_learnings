@@ -93,21 +93,19 @@ Learn how to deploy a production-ready, highly available web application in GCP 
 
 >[!NOTE]
 > continue with **step 6** to create LB
-
+---
 ### Step 6: Create a Classic Application Load Balancer
 
 1. Set:
    - Load Balancer Name: `web-lb`
    - Frontend configuration:
-     - 
+      - Protocol: HTTP
+      - Port: 80
    - Backend configuration:
-     - Create backend service **(refer to step 8)**
+     - Create backend service 
      - Add the MIG (`web-mig`)
      - Attach the **health check** (`web-health-check`) => **refer to Step 4**
-3. Click **Next**
+3. Click **Create**
+---
 
-
-
-### Step 8: Create a Backend Service
-
-1. 
+THE END 🙂
