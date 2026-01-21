@@ -107,5 +107,4 @@ Learn how to deploy a production-ready, highly available web application in GCP 
      - Attach the **health check** (`web-health-check`) => **refer to Step 4**
 3. Click **Create**
 ---
-
-THE END 🙂
+Congrats Load Balancer is created 🙂
