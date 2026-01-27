@@ -111,6 +111,7 @@ Learn how to deploy a production-ready, highly available web application in GCP 
 Congrats!! 
 Load Balancer is created successfully 🙂 
 
-Now, to see if `nginx` application is running, use `http://LB_IP_Address` to see which VM/server the request is going to whenever we hit/open the website. Here LB will send request to any one of the VM running in the backend (VMs created by MIG). It works from any device(mobile, etc).
 
-Alternatively, from any device/server/VM/instance we can access the output or verify if application is succesfully running by using command `curl http://LB_IP_Address`
+> Now, to see if `nginx` application is running, use `http://LB_IP_Address` to see which VM/server the request is going to whenever we hit/open the website. Here LB will send request to any one of the VM running in the backend (VMs created by MIG). It works from any device(mobile, etc).
+
+> Alternatively, from any device/server/VM/instance we can access the output or verify if application is succesfully running by using command `curl http://LB_IP_Address`
