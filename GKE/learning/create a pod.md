@@ -2,7 +2,7 @@
 ## create a pod
 
 YAML used: 
-
+```
 apiVersion: v1
 kind: Pod
 metadata: 
@@ -15,3 +15,4 @@ spec:
     image: my-image:latest
     ports:
     - containerPort: 80
+```
