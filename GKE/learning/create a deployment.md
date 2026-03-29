@@ -3,7 +3,7 @@
 
 `Task`: **Create a deployment named `nginx` to deploy the application `nginx` using the image `nginx:latest` (ensure to specify the tag)**
 
-- used nano deploy.yaml and added below configuration/YAML:
+- used `nano deploy.yaml` and added below configuration/YAML:
 
 ```
 apiVersion: apps/v1
@@ -28,4 +28,4 @@ spec:
 
 ```
 
-- used kubectl apply -f deploy.yaml and deployment was created sucessfully. 
+- used `kubectl apply -f deploy.yaml` and deployment was created sucessfully. 
