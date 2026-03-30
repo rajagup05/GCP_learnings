@@ -18,4 +18,9 @@ spec:
     image: nginx:latest
 ```
 
-- 
+- used `kubectl apply -f pod.yaml -n dev` to create a pod.
+- to check this used command `kubectl get pods -o wide -n dev` and got below output:
+
+```
+dev-nginx-pod   1/1     Running   0          49s   IP   jump-host   <none>           <none>
+```
