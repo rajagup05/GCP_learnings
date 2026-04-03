@@ -27,4 +27,7 @@ spec:
         memory: 15Mi 
 ```
 
+- used `kubectl apply -f samplepod.yaml ` to create a pod and below was the output: 
+
+`pod/httpd-pod created`
 
