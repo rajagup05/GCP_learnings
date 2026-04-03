@@ -29,5 +29,5 @@ spec:
 
 - used `kubectl apply -f samplepod.yaml ` to create a pod and below was the output: 
 
-> pod/httpd-pod created
+=> pod/httpd-pod created
 
