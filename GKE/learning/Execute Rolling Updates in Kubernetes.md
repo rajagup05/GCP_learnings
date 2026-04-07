@@ -18,3 +18,6 @@ nginx-deployment-fc677cbc9-2d5w6   1/1     Running   0          6m36s
 nginx-deployment-fc677cbc9-7pqjd   1/1     Running   0          6m36s
 nginx-deployment-fc677cbc9-k4x2p   1/1     Running   0          6m36s
 ```
+
+- used $ `kubectl describe pods nginx-deployment-fc677cbc9-2d5w6` => described one pod to get container name
+ 
