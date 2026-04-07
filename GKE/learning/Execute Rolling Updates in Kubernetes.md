@@ -9,3 +9,12 @@
 NAME               READY   UP-TO-DATE   AVAILABLE   AGE
 nginx-deployment   3/3     3            3           2m26s
 ```
+
+- used $ `kubectl get pods` to get the running pods
+
+```
+NAME                               READY   STATUS    RESTARTS   AGE
+nginx-deployment-fc677cbc9-2d5w6   1/1     Running   0          6m36s
+nginx-deployment-fc677cbc9-7pqjd   1/1     Running   0          6m36s
+nginx-deployment-fc677cbc9-k4x2p   1/1     Running   0          6m36s
+```
