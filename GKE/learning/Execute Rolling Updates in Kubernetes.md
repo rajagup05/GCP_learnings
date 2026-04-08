@@ -21,3 +21,5 @@ nginx-deployment-fc677cbc9-k4x2p   1/1     Running   0          6m36s
 
 - used $ `kubectl describe pods nginx-deployment-fc677cbc9-2d5w6` => described one pod to get container name
  
+- used $ `kubectl set image deployment/nginx-deployment nginx-container=nginx:1.19` to update image name for `nginx-container` container for this deployment and below is the output:
+`deployment.apps/nginx-deployment image updated`
