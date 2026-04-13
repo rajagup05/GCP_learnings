@@ -41,3 +41,9 @@ Available Commands:
   undo          Undo a previous rollout
 
 ```
+
+- used $ `kubectl rollout undo deployment/nginx-deployment` and below is the output:
+```
+deployment.apps/nginx-deployment rolled back
+```
+
