@@ -47,3 +47,8 @@ Available Commands:
 deployment.apps/nginx-deployment rolled back
 ```
 
+- used $ `kubectl rollout status deployment/nginx-deployment ` to see the status of the deployment and below is the output:
+```
+deployment "nginx-deployment" successfully rolled out
+```
+
