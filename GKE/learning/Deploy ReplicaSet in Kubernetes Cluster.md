@@ -33,3 +33,8 @@ spec:
         image: nginx:latest 
 
 ```
+
+- used $ `kubectl apply -f repliaset.yaml` to create a replicaset and below is the output:
+```
+replicaset.apps/nginx-replicaset created
+```
