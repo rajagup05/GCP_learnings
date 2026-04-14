@@ -38,3 +38,9 @@ spec:
 ```
 replicaset.apps/nginx-replicaset created
 ```
+
+- used $ `kubectl get replicaset` to see the created replicaset and below is the output:
+```
+NAME               DESIRED   CURRENT   READY   AGE
+nginx-replicaset   4         4         4       14s 
+```
