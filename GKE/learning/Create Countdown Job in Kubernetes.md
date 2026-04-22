@@ -24,3 +24,14 @@ spec:
         command: [sleep 5]
       restartPolicy: Never 
 ```
+
+- used $ `kubectl apply -f job.yaml` to create a job and below is the output:
+``` 
+job.batch/countdown-datacenter created
+```
+
+- used $ `kubectl get job` to see the jobs running:
+```
+NAME                   STATUS    COMPLETIONS   DURATION   AGE
+countdown-datacenter   Running   0/1           13s        13s
+```
